@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: auto 0;
+    padding: 0;
+}
+.container{
+    width: 1360px;
+    margin:  0 auto;
+}
+a {
+    text-decoration: none;
+    color: #403F3D;
+    transition: all 0.5s ease-in-out;
+}
+a:hover{
+    color: yellow;
+    text-shadow: 3px 5px 5px 5px burlywood;
+}
+.head{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head_box{
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+}
+span{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.Enjoy{
+    background-image: url(./img/53de184b52e70f8c6142237a41f29303.jpeg);
+    background-size: cover;
+    border-radius: 50px;
+    padding: 100px 0 100px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  
+}
+.text1{
+    font-size: 72px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgba(245, 245, 245, 0.834);
+}
+.text2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #e1d4c9cb;
+    font-family: sans-serif;
+}
+.btn{
+    width: 200px;
+    height: 64px;
+    border-radius: 100px;
+    background-color: #E1D4C9;
+    color: #403F3D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: none;
+}
+.btn:hover{
+    background-color: red;
+}
+.btn:focus{
+    background-color: red;
+    color: black;
+}
+
+.h1coffe{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    color: #403F3D;
+    font-family: sans-serif;
+    margin: 80px 0 30px 0;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #E1D4C9;
+   padding-bottom: 50px;
+  
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 480px;
+    height: 480px;
+    object-fit: cover;
+  }
+  .h2name{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #403F3D;
+  }
+  .h3note{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #403F3D;
+  }
+  .text_cofe{
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #403F3D;
+}
+  .box{
+    margin: 50px 0;
+    display: flex;
+    gap: 30px;
+}
+  .box-1{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .box-2{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phone-1{
+    display: flex;
+   margin: 50px 0;
+    flex-direction: column;
+    gap: 50px;
+}
+.texth1{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.textp1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #403F3D;
+}
+.btncode{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+   
+}
+.btnapple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 64px;
+    border-radius: 100px;
+   background-color: #E1D4C9;
+   gap: 20px;
+   cursor: pointer;
+   transition: all 0.5s ease-in-out;
+}
+.btnapple:hover{
+    background-color: yellow;
+    color: red;
+}
+.btnplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 64px;
+    border-radius: 100px;
+   background-color: #E1D4C9;
+   gap: 20px;
+   transition: all 0.5s ease-in-out;
+   cursor: pointer;
+}
+.btnplay:hover{
+    background-color: yellow;
+    color: red;
+}
+.footer{
+    background-color: #665F55;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    gap: 30px;
+    margin: 50px 0;
+    height: 450px;
+}
+.foot-us{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: 250px;
+    gap: 20px;
+}
+.link{
+
+    display: flex;
+    gap: 10px;
+     text-align: center;
+}
